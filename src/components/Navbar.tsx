@@ -10,13 +10,14 @@ export const Navbar: React.FC = () => {
     { name: 'Beranda', href: '#home' },
     { name: 'Tentang', href: '#about' },
     { name: 'Analisis SWOT', href: '#swot' },
+    { name: 'Kesimpulan', href: '#kesimpulan' },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['home', 'about', 'swot'];
+      const sections = ['home', 'about', 'swot', 'kesimpulan'];
       const scrollPosition = window.scrollY + 180;
 
       for (const section of sections) {
@@ -60,7 +61,7 @@ export const Navbar: React.FC = () => {
           onClick={(e) => handleLinkClick(e, '#home')}
           className="text-lg font-extrabold tracking-tight text-[#0D211D] hover:text-[#C76F45] transition-colors focus-visible:outline-2 focus-visible:outline-[#C76F45] rounded"
         >
-          YOGA<span className="text-[#C76F45]">.SWOT</span>
+          Yoga Dwi <span className="text-[#C76F45]">Pratama</span>
         </a>
 
         {/* Zone 2: Navigation links */}

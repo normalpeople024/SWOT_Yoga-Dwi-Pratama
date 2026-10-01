@@ -14,6 +14,8 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-3 text-xs sm:text-sm text-white/60">
             <span>© 2026 Yoga Dwi Pratama</span>
             <span className="text-white/20">·</span>
+            <span className="hidden sm:inline text-white/40">NPM 23111100013 • Kelas 23B</span>
+            <span className="text-white/20">·</span>
             <span className="hidden sm:inline text-white/40">Analisis SWOT Diri • Kecakapan Antar Personal</span>
           </div>
 

@@ -30,11 +30,16 @@ export const Hero: React.FC = () => {
           {/* Left Column: Editorial Headline & Copy */}
           <div className="lg:col-span-7 flex flex-col justify-center z-10">
             {/* Small uppercase category kicker */}
-            <div className="inline-flex items-center gap-2 mb-4">
+            <div className="inline-flex items-center gap-2 mb-3">
               <span className="w-2 h-2 rounded-full bg-[#C76F45] inline-block animate-pulse" />
               <span className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-[#C76F45]">
                 Kecakapan Antar Personal • Analisis SWOT Diri
               </span>
+            </div>
+
+            {/* Student identity */}
+            <div className="text-[11px] sm:text-xs font-mono tracking-wider text-[#18221F]/50 mb-4">
+              NPM 23111100013 • KELAS 23B • UNIVERSITAS PGRI YOGYAKARTA
             </div>
 
             {/* Large Bold Display Headline */}

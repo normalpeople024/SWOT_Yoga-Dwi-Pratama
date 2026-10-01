@@ -8,6 +8,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { SwotMatrix } from './components/SwotMatrix';
+import { Conclusion } from './components/Conclusion';
 import { Footer } from './components/Footer';
 
 export default function App() {
@@ -26,6 +27,9 @@ export default function App() {
 
         {/* 2x2 SWOT Matrix */}
         <SwotMatrix />
+
+        {/* Conclusion & Action Plan */}
+        <Conclusion />
       </main>
 
       {/* Minimal Footer */}
